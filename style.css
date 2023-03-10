@@ -1,0 +1,68 @@
+body {
+    color: white;
+    font-size: 200%;
+    background-color: black;
+}
+
+body p {
+    text-align: left;
+    max-width: 80%;
+    padding-left: 80px;
+}
+
+h1,
+h2 {
+    padding-left: 80px;
+}
+
+img {
+    float: right;
+    max-height: 900cod
+    px;
+}
+
+#navigation_bar {
+    list-style-type: none;
+    overflow: hidden;
+    text-align: right;
+    background-color: bisque;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-right: 50px;
+    transition: all 0.5s ease-in-out;
+}
+
+#navigation_bar li {
+    display: inline-flex;
+    padding: 20px;
+    font-size: 50px;
+    color: white;
+}
+
+#navigation_bar li a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+#navigation_bar li a:visited {
+    color: white;
+}
+
+#navigation_bar li a:hover,
+#navigation_bar li a:focus {
+    color: white;
+}
+
+#navigation_bar li a:active {
+    transform: scale(1.2)
+}
+
+#list_project {
+    padding-left: 80px;
+}
